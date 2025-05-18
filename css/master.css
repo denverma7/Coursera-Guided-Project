@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#background-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    color: yellow;
+    font-size: 100px;
+    margin-top: 40px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.seven-timer{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.seven-timer span{
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 4px 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+
+.copyright-text {
+    margin: 0;
+    font-size: 14px;
+}
+
+.city-select-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.city-select {
+    padding: 6px 12px;
+    font-size: 14px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    width: 300px;
+
+}
+
+.weather-forecast {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.weather-card {
+    background: linear-gradient(to bottom, rgb(67, 154, 235) 0%, rgb(67, 154, 235) 51%, rgb(0, 25, 100) 50%, rgb(1,20,100) 100%);
+    display:block;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 150px;
+    color: white;
+    margin: 10px;
+
+}
+
+.weather-icon {
+    width: 70%;
+    margin-top: 5px;
+    padding-bottom: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(67,154,235);
+}
+
+.date{
+    color: yellow;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.weather{
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 24px;
+
+}
+
+.temp{
+    color: yellow;
+    font-weight:normal;
+    font-family: 'Courier New', Courier, monospace;
+}
